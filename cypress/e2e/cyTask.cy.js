@@ -2,7 +2,7 @@ describe("Reviewing cy.task()",()=>{
     it("Cy Task",()=>{
         
         //event name, argument
-        cy.task("mylog","hello master").then((message)=>cy.log(message));
+        cy.task("mylog","hello master what are doing now").then((message)=>cy.log(message));
     });
     it('Counting number of files',()=>{
         cy.task('countFiles', 'cypress/downloads').then((count) => {
